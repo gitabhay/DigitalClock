@@ -46,7 +46,7 @@ function setDisplay(){
 
 
     if(wakeup_value == current_hours){
-        document.getElementById('view-image').style.backgroundImage="url(Wakeup.jpg)"
+        document.getElementById('view-image').style.backgroundImage="url(wakeup.jpg)"
         document.getElementById('view-plan').innerHTML='Grab Some Healthy Breakfast !!';
         document.getElementById("view-wish").innerHTML="Good Morning !! ";
     }
